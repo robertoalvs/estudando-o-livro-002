@@ -1,1 +1,58 @@
 @charset "UTF-8";
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+    color: #1d3d76;
+    font-size: 100%;
+}
+
+header {
+
+    padding-bottom: 20px;
+
+}
+
+main { /* Container no exemplo do livro*/
+
+    background-image: url(../img/bg-bluebench.jpg);
+    max-width: 950px;
+    margin: 20px auto;
+    width: 71%;
+    padding: 30px 10px 0 0;
+    
+}
+
+article {  /* #page no exemplo do livro */
+
+        background-color: white;
+        max-width: 940px;
+        width: 97%;
+        padding: 10px 10px 10px 0;
+   
+}
+
+.sessao1 img {
+
+    float: left;
+}
+
+.sessao2 img {
+
+    float: left;
+}
+
+.sessao3 img {
+
+    float: left;
+}
+
+article > section >.texto1 {
+
+    padding: -5px 0 0 110px;
+}
