@@ -6,3 +6,30 @@
     padding: 0px;
 }
 
+body {
+
+
+    
+}
+
+#container {
+
+   background-image: url(../img/bg-bluebench.jpg);
+   width: 90%;
+   max-width: 950px;
+}
+
+header {
+
+    
+
+    
+}
+
+article {
+
+   width: 97%;
+   max-width: 940px;
+   background-color: white;
+
+}
