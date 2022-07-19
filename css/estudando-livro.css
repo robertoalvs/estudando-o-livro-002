@@ -12,7 +12,7 @@ body {
     font-size: 100%;
 }
 
-header {
+article > header {
 
     padding-bottom: 20px;
 
