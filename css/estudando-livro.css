@@ -7,8 +7,6 @@
 }
 
 body {
-
-
     
 }
 
@@ -16,20 +14,53 @@ body {
 
    background-image: url(../img/bg-bluebench.jpg);
    width: 90%;
-   max-width: 950px;
+   width: 950px;
+   margin: 20px auto;
+   padding: 30px 7px 0 0;
+   
+   
 }
 
-article > header {
+main {
 
-    
-
-    
+   width: 71%;
+   width: 940px;
+   background-color: white;
+   
+  
 }
 
 article {
+   
+  
+}
 
-   width: 97%;
-   max-width: 940px;
-   background-color: white;
+article img {
 
+   
+
+}
+
+article p {
+
+   
+}
+
+.continue {
+
+   text-align: right;
+}
+
+aside {
+
+   background-color: rgba(0, 255, 255, 0.11);
+   width: 28%;
+   float: right;
+   margin: 10px;
+
+}
+
+footer {
+
+   clear: both;
 }
