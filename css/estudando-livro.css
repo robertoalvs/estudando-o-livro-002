@@ -11,3 +11,21 @@ body {
 
 }
 
+#container {
+
+   background-image: url(../img/bg-bluebench.jpg);
+   width: 90%;
+   max-width: 950px;
+   margin: 20px auto;
+}
+
+#degrade {
+
+   background-color: #fef6f8;
+   width: 97%;
+}
+
+main {
+
+   width: 71%;
+}
