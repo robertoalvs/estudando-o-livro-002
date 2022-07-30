@@ -6,46 +6,11 @@
    padding: 0;
 }
 
-body {
+:root {
 
-}
-
-#container {
-
-   background-image: url(../img/bg-bluebench.jpg);
-   background-repeat: repeat-y;
-   width: 90%;
-   max-width: 950px;
-   margin: 20px auto;
-   padding: 30px 5px 0 0;
-}
-
-#degrade {
-
-   background-color: #fef6f8;
-   width: 97%;
-   max-width: 940px;
-   padding: 10px 10px 10px 0;
-}
-
-main {
-
-   width: 71%;
-}
-
-.paragrafo {
-
-   margin: -5px 0 0 110px;
-}
-
-.foto {
-
-   float: left;
-   width: 100px;
-   height: 75px;
-}
-
-aside {
-
-   float: right;
+   --color1: #1d3d76;
+   --color2: #b74e07;
+   --color3: #597dbd;
+   --color4: #f3cfb6;
+   --color5: #f5f8fa;
 }
