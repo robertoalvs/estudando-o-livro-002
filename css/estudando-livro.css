@@ -4,6 +4,7 @@
 
    margin: 0;
    padding: 0;
+   
 }
 
 :root {
@@ -13,4 +14,182 @@
    --color3: #597dbd;
    --color4: #f3cfb6;
    --color5: #f5f8fa;
+   --color6: #fef6f8;
+}
+
+body {
+   color: #1d3d76;
+	font: 100% "Trebuchet MS", Verdana, sans-serif;
+	padding-bottom: 20px;
+   
+}
+
+#container {
+
+   background-image: url(../img/bg-bluebench.jpg);
+   /* background-repeat: repeat-y;
+   background-attachment: fixed; */
+   max-width: 950px;
+   width: 90%;
+   margin: 20px auto;
+   padding: 30px 10px 0 0;
+   
+}
+
+#pagina {
+
+   background-color: var(--color6);
+   width: 97.9167%;
+   padding: 10px 10px 10px 0;
+   
+}
+
+/* INÍCIO DO CABEÇARIO */
+header {
+
+   border-bottom: 2px dotted var(--color1);
+   margin-bottom: 30px;
+   padding-bottom: 20px;
+   position: relative;
+   
+}
+
+form {
+
+   position: absolute;
+   top: 7px;
+   right: 0;
+}
+
+.clearfix {
+
+overflow: auto;
+
+}
+
+.logo {
+
+   color: var(--color1);
+   font-size: 2.5em;
+   margin: 0;
+   font-weight: bolder;
+   text-transform: lowercase;
+}
+
+span {
+
+   color: #1d3d76;
+	display: block;
+	font-size: 0.3em; /* 12px/40px */
+	font-style: italic;
+	font-weight: normal;
+	margin: 3px 0 0 1em;
+}
+
+nav {
+
+   float: right;
+
+}
+nav li {
+
+   float: left;
+   font-size: .75em;
+   padding: 0 25px 0 3px;
+}
+/* FIM DO CABEÇARIO */
+
+
+/* MAIN */
+#principal {
+
+   width: 71%;
+   float: left;
+}
+
+main h1 {
+
+   font-size: 1.5em;
+   margin-bottom: .75em;
+   text-transform: lowercase;
+   font-family: 100% "Trebuchet MS", Verdana, sans-serif;
+   color: var(--color2);
+}
+
+main h2 {
+
+   font-size: 1.3em;
+   padding-bottom: 2px;
+   color: var(--color2);
+   
+}
+/* CONFIGURAÇÃO BORDA LATERAIS DAS SEÇÕES 1, 2 E 3 */
+.sessao1, .sessao2, .sessao3 {
+
+   border-right: 2px dashed var(--color2);
+   margin: 0 .5em 2em 0;
+
+}
+
+/* CONFIGURAÇÃO DA DATA */
+.data {
+
+   line-height: 1;
+   margin: 0 1em 0 0;
+   padding-right: 10px;
+   position: relative;
+   top: -1em;
+   text-align: end;
+   font-size: 12px;
+}
+
+/* CONFIGURAÇÃO DOS PARAGRAFOS DAS SEÇÕES 1, 2 E 3 */
+.sessao1 >p, .sessao2 >p, .sessao3 >p {
+
+   margin: -5px 5px 0 110px;
+   padding: 1;
+}
+
+.continue {
+
+   font-style: italic;
+   margin-top: -5px;
+   text-align: end;
+   padding-right: 10px;
+   font-size: 12px;
+   position: relative;
+   
+   
+}
+
+.sessao1 img, .sessao2 img, .sessao3 img {
+
+   float: left;
+   
+   
+}
+
+/* BARRA LATERAL */
+aside {
+
+   background-color: var(--color5);
+   width: 26%;
+   float: left;
+   padding: 10px;
+}
+
+aside h2 {
+
+   font-size: .9375em;
+   text-transform: lowercase;
+   color: var(--color2);
+   
+}
+
+/* RODAPÉ */
+footer {
+
+   clear: both;
+   margin-top: 10px;
+   border-top: 2px dotted var(--color2);
 }
