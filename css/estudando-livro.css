@@ -45,6 +45,7 @@ body {
    max-width: 950px;
    padding: 10px 10px 10px 0;
    
+   
 }
 
 /* INÍCIO DO CABEÇARIO */
@@ -203,10 +204,10 @@ a:hover {
 aside {
 
    background-color: var(--color5);
-   width: 26%;
-   float: left;
+   width: 25%;
    padding: 10px 10px 20px 10px;
    margin-left: 5px;
+   margin-left: 72%;
 
 }
 
