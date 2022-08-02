@@ -199,9 +199,7 @@ a:hover.current {
 
 /* Logo */
 .logo {
-	float: left;
-	font-size: 2.5em; /* 40px/16px */
-	margin: 0;
+	
 }
 
 .logo a {
