@@ -56,6 +56,15 @@ body {
 header {
 
    margin-bottom: 30px;
+   border-bottom: 2px dotted var(--color1);
+   padding-bottom: 20px;
+   
+}
+
+header div {
+
+   float: right;
+   position: relative;
 }
 
 .logo {
@@ -63,6 +72,7 @@ header {
    float: left;
    font-size: 2.5em;
    margin: 0;
+   
 }
 
 span {
@@ -74,13 +84,26 @@ span {
 	margin: 3px 0 0 1em;	
 }
 
+nav {
+
+   margin-top: 45px;
+}
+
 nav >ul li {
 
    float: left;
    font-size: .75em;
    padding: 0 25px 0 3px;
+   
 }
 
+/* Busca */
+form {
+
+   position: absolute;
+   top: 7px;
+   right: 0;
+}
 
 /* div main */
 #principal {
@@ -93,6 +116,7 @@ nav >ul li {
 .sessao1, .sessao2, .sessao3 {
 
    margin: 0 .5em 2em 0;
+   border-right: 2px dashed var(--color2);
 }
 
 /* float na class foto, assim juntamos o texto ao lado da foto. */
@@ -101,6 +125,15 @@ nav >ul li {
    float: left;
 }
 
+.data {
+
+   line-height: 1;
+   margin: 0 1em 0 0;
+   padding: 0;
+   position: relative;
+   top: -1em;
+   text-align: end;
+}
 .sessao1 p, .sessao2 p, .sessao3 p {
 
    margin: -5px 0 0 110px;
@@ -147,6 +180,8 @@ ol {
 footer {
 
    margin-top: 10px;
+   clear: both;
+   border-top: 2px dotted var(--color2);
    
 }
 
