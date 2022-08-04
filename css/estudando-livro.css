@@ -43,7 +43,9 @@ body {
 
 }
 
-/* div #page */
+/* div #page 
+==========================================================
+*/
 #pagina {
 
    background-color: var(--color6);
@@ -52,7 +54,9 @@ body {
    padding: 10px 10px 10px 0;
 }
 
-/* div MASTERHEAD do livro */
+/* div MASTERHEAD do livro 
+==========================================================
+*/
 header {
 
    margin-bottom: 30px;
@@ -61,18 +65,36 @@ header {
    
 }
 
+/* A div criada para englobar o nav e o form, ajudou a organizar o formulario e a ul li dentro do header */
 header div {
 
    float: right;
    position: relative;
 }
 
+/* logo da cabeçario
+ ==================================================
+ */
 .logo {
 
    float: left;
    font-size: 2.5em;
    margin: 0;
+   font-weight: bolder;
+}
+.logo a {
+
+   text-decoration: none;
+   color: var(--color1);
    
+}
+
+.logo a:hover {
+
+   text-decoration: none;
+   color: var(--color3);
+   background-color: transparent;
+   padding: 0;
 }
 
 span {
@@ -83,7 +105,13 @@ span {
 	font-weight: normal;
 	margin: 3px 0 0 1em;	
 }
+/* Fim - logo da cabeçario
+ ==================================================
+ */
 
+ /* Menu de navegação 
+ ==============================================
+ */
 nav {
 
    margin-top: 45px;
@@ -92,10 +120,27 @@ nav {
 nav >ul li {
 
    float: left;
-   font-size: .75em;
-   padding: 0 25px 0 3px;
-   
+   padding: 0 10px 0 3px;
+   font-size: 1.1em;
+   list-style-position: inside;
 }
+
+/* class "none" no nav >ul li - retira a bola de marcação do home
+==========================================================
+*/
+.none {
+
+   list-style: none;
+}
+
+nav >ul >li a:hover {
+
+   text-decoration: none;
+}
+/* Menu de navegação 
+ ==============================================
+ */
+
 
 /* Busca */
 form {
@@ -112,14 +157,19 @@ form {
    float: left;
 }
 
-/* .entry do livro */
+/* .entry do livro 
+==========================================================
+*/
 .sessao1, .sessao2, .sessao3 {
 
    margin: 0 .5em 2em 0;
    border-right: 2px dashed var(--color2);
+   padding-right: 7px;
 }
 
-/* float na class foto, assim juntamos o texto ao lado da foto. */
+/* float na class foto, assim juntamos o texto ao lado da foto. 
+==========================================================
+*/
 .foto {
 
    float: left;
@@ -128,11 +178,12 @@ form {
 .data {
 
    line-height: 1;
-   margin: 0 2em 0 0;
+   margin: 0 1em 0 0;
    padding: 0;
    position: relative;
    top: -1em;
    text-align: end;
+   font-size: .75em;
    
 }
 .sessao1 p, .sessao2 p, .sessao3 p {
@@ -141,6 +192,7 @@ form {
    padding-right: 5px;
 }
 
+/* links */
 a {
    text-decoration: none;
    color: var(--color3);
@@ -154,6 +206,9 @@ a:hover {
    
 }
 
+/* H1 geral 
+==========================================================
+*/
 h1 {
 
    font-size: 1.5em;
@@ -162,28 +217,42 @@ h1 {
    color: var(--color2);
 }
 
+/* H2 geral */
 h2 {
 
    color: var(--color2);
    font-size: 1.21em;
 }
 
-/* Configura o link continued, foi criado a class .continue em um paragrafo */
-.continue {
-
-   font-style: italic;
-   padding-right: 5px;
-   text-align: end;
-   
-}
-
+/* Configura o link continue das sessões 1, 2 e  3
+=====================================================
+*/
 .continue1 {
 
    text-align: end;
    font-size: .75em;
 }
 
-/* div #related */
+.continue2 {
+
+   text-align: end;
+   font-size: .75em;
+}
+
+.continue3 {
+
+   text-align: end;
+   font-size: .75em;
+}
+/* Fim
+Configura o link continue das sessões 1, 2 e  3
+=====================================================
+*/
+
+
+/* div #related 
+================================================
+*/
 aside {
 
    background-color: var(--color5);
@@ -207,6 +276,12 @@ aside h2 {
    font-style: italic;
 }
 
+.aside-h2-ol {
+
+   font-size: 1em;
+   text-transform: lowercase;
+}
+
 aside ol {
 
    list-style: disc;
@@ -216,13 +291,24 @@ aside ol {
 aside li {
 
    font-size: .75em;
-   
+}
+
+/* Configura o link continued do aside, foi criado a class .continue em um paragrafo */
+.continue {
+
+   font-style: italic;
+   padding-right: 5px;
+   text-align: end;
 }
 
 .aside-more {
 
    text-align: end;
 }
+/* Fim - aside - div #related do livro
+================================================
+*/
+
 
 footer {
 
