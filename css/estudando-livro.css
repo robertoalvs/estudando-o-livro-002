@@ -128,33 +128,60 @@ form {
 .data {
 
    line-height: 1;
-   margin: 0 1em 0 0;
+   margin: 0 2em 0 0;
    padding: 0;
    position: relative;
    top: -1em;
    text-align: end;
+   
 }
 .sessao1 p, .sessao2 p, .sessao3 p {
 
    margin: -5px 0 0 110px;
+   padding-right: 5px;
 }
 
+a {
+   text-decoration: none;
+   color: var(--color3);
+}
+
+a:hover {
+
+   text-decoration: underline;
+   padding: 3px;
+   background-color: var(--color4);
+   
+}
 
 h1 {
 
    font-size: 1.5em;
    margin-bottom: .75em;
    text-transform: lowercase;
+   color: var(--color2);
+}
+
+h2 {
+
+   color: var(--color2);
+   font-size: 1.21em;
 }
 
 /* Configura o link continued, foi criado a class .continue em um paragrafo */
 .continue {
 
    font-style: italic;
-   margin-top: -5px;
+   padding-right: 5px;
    text-align: end;
+   
 }
 
+.continue1 {
+
+   text-align: end;
+   font-size: .75em;
+}
 
 /* div #related */
 aside {
@@ -164,17 +191,37 @@ aside {
    padding: 10px;
 }
 
+aside p {
+
+   font-size: .750em;
+   padding: 2px 6px 5px 0;
+   font-style: italic;
+   
+}
+
 aside h2 {
 
    font-size: .9375em;
    margin-bottom: 3px;
    text-transform: lowercase;
+   font-style: italic;
 }
 
-ol {
+aside ol {
 
    list-style: disc;
    padding-left: 18px;
+}
+
+aside li {
+
+   font-size: .75em;
+   
+}
+
+.aside-more {
+
+   text-align: end;
 }
 
 footer {
@@ -182,11 +229,33 @@ footer {
    margin-top: 10px;
    clear: both;
    border-top: 2px dotted var(--color2);
+   list-style: none;
    
 }
 
 footer >ul {
 
    vertical-align: middle;
+   
+}
+
+footer >ul li {
+
+   display: inline;
+}
+
+footer p {
+
+      font-size: .6875em;
+      padding-top: 5px;
+      padding-bottom: 10px;
+      text-align: justify;
+}
+
+footer h2 {
+
+   padding-top: 5px;
+   font-size: 1.03em;
+   color: var(--color2);
    
 }
